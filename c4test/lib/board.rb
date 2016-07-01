@@ -13,6 +13,7 @@ class Board
        @counter = 0
        @column=0
        @rowcoordinate=0
+       attr_accessor :counter, :column, :boardx
    end
 
    def render
